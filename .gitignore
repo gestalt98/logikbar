@@ -1,0 +1,147 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Finder
+.Spotlight-V100
+.Trashes
+
+# macOS metadata
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Legacy / network
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets/
+secret/
+credentials/
+credential/
+*.credentials
+*.secret
+auth.json
+token.json
+service-account*.json
+.netrc
+.npmrc
+.pypirc
+.aws/
+.gcp/
+.azure/
+
+# AI assistants, prompts, and local agent state
+.cursor/
+.cursorrules.local
+*.cursorrules.local
+.aider*
+.continue/
+.copilot/
+.claude/
+.ai/
+prompts/local/
+prompts/private/
+prompts/**/*.local.*
+**/agent-transcripts/
+**/.prompt-cache/
+*.prompt.local
+*.prompts.local
+.cursor/plans/
+*.plan.md.local
+
+# Editors and IDEs
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
+
+# Node / frontend (if used)
+node_modules/
+.npm/
+.yarn/
+.pnp.*
+*.tsbuildinfo
+.next/
+.nuxt/
+.output/
+.parcel-cache/
+
+# Logs and local runtime
+*.log
+logs/
+tmp/
+temp/
+.cache/
+*.pid
+*.seed
+*.pid.lock
+
+# OS / editor backups
+*.bak
+*.orig
+*.rej
+
+# Infrastructure and deploy artifacts (local only)
+*.tfstate
+*.tfstate.*
+.terraform/
+*.auto.tfvars
+!*.auto.tfvars.example
+docker-compose.override.yml
+docker-compose.*.local.yml
+*.local.yml
+*.local.yaml
+*.local.json
