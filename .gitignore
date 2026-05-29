@@ -8,6 +8,11 @@ Icon
 #database
 .sql
 
+#wordpress
+wp-config.php
+wp-content/uploads
+/wp-content/cache/
+.lognode_modules/
 # Finder
 .Spotlight-V100
 .Trashes
