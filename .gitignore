@@ -10,8 +10,8 @@ Icon
 
 #wordpress
 wp-config.php
-wp-content/uploads
-/wp-content/cache/
+wp-content/uploads/
+wp-content/cache/
 .lognode_modules/
 # Finder
 .Spotlight-V100
