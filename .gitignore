@@ -5,6 +5,9 @@
 Icon
 ._*
 
+#database
+.sql
+
 # Finder
 .Spotlight-V100
 .Trashes
