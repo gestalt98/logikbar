@@ -1,0 +1,1 @@
+<h3><?php _e( 'Not Found', 'nictitate-lite' ); ?></h3>

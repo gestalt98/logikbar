@@ -1,0 +1,17 @@
+Change log
+
+=== Aug 18 2016 ===
+1.0.3
+	- Added function "nictitate_toolkit_get_video_thumbnails_url"
+
+=== Jul 20 2016 ===
+1.0.2
+	- Added jflickr.js
+	- Fixed contact form
+	
+=== Jan 20 2016 ===
+1.0.1
+	- Add field phone, email, address for widget contact form.
+===================
+1.0.0
+	- Release plugin

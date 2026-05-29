@@ -1,0 +1,572 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Pricing Table\n"
+"POT-Creation-Date: 2016-03-26 13:51+0800\n"
+"PO-Revision-Date: 2015-08-11 17:42+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/cmb2/includes/CMB2.php:120
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2.php:326
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Ajax.php:40
+msgid "Please Try Again"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Ajax.php:135
+msgid "Remove Embed"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Ajax.php:139
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Field.php:910
+msgid "Add Group"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Field.php:911
+msgid "Remove Group"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Field.php:933 inc/cmb2/includes/CMB2_Field.php:937
+msgid "None"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:86 inc/cmb2/includes/CMB2_JS.php:119
+msgid "Clear"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:87
+msgid "Default"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:88
+msgid "Select Color"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:89
+msgid "Current Color"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:109
+msgid "mm/dd/yy"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:110
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:111
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:112
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:113
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:114
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:115
+msgid "Next"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:116
+msgid "Prev"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:117
+msgid "Today"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:118 inc/cmb2/includes/CMB2_JS.php:128
+msgid "Done"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:122
+msgid "Choose Time"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:123
+msgid "Time"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:124
+msgid "Hour"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:125
+msgid "Minute"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:126
+msgid "Second"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:127
+msgid "Now"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:129
+msgid "hh:mm TT"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:135
+msgid "Use this file"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:136
+msgid "Use these files"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:137 inc/cmb2/includes/CMB2_Types.php:990
+msgid "Remove Image"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:138 inc/cmb2/includes/CMB2_Types.php:357
+#: inc/cmb2/includes/CMB2_Types.php:1009
+msgid "Remove"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:139 inc/cmb2/includes/CMB2_Types.php:1004
+msgid "File:"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:140 inc/cmb2/includes/CMB2_Types.php:1007
+msgid "Download"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_JS.php:141
+msgid "Select / Deselect All"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Types.php:298
+msgid "Add Row"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Types.php:735 inc/cmb2/includes/CMB2_Types.php:783
+msgid "No terms"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Types.php:850
+msgid "Add or Upload Files"
+msgstr ""
+
+#: inc/cmb2/includes/CMB2_Types.php:912
+msgid "Add or Upload File"
+msgstr ""
+
+#: inc/cmb2/includes/helper-functions.php:249
+msgid "Save"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:22
+msgid "Manage Plans"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:22
+msgid "Unlock more features with Responsive Pricing Table PRO!"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:22
+msgid "Free version"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:30
+msgid "Plan {#}"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:31
+msgid "Add another plan"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:32
+msgid "Remove plan"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:39
+msgid "Plan header"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:46 inc/rpt-metaboxes.php:265
+msgid "Title"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:54 inc/rpt-metaboxes.php:278
+msgid "Subtitle"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:62 inc/rpt-metaboxes.php:317
+msgid "Recurrence"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:62
+msgid "eg. 'per month/year'"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:70 inc/rpt-metaboxes.php:303
+msgid "Price"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:70
+msgid "No currency sign here (it can be set in the Settings tab)"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:78 inc/rpt-metaboxes.php:291
+msgid "Description"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:78
+msgid "Short text that will appear below the subtitle"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:86
+msgid "Small icon"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:86
+msgid "Recommended:"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:89
+msgid "Upload"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:94
+msgid "Recommended plan"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:94
+msgid "Check this to highlight this plan"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:95
+msgid "Mark as recommended"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:103
+msgid "Remove currency sign"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:103
+msgid "Check this to hide the currency sign (for free plans for example)"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:104
+msgid "Check to remove"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:112
+msgid "Plan features"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:119
+msgid "Feature list"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:119
+msgid "One per line — Read the Tips & Tricks section for useful information"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:126
+msgid "One feature per line"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:131
+msgid "Tips & Tricks"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:132
+msgid "Add images (not recommended)"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:132
+msgid "Add links"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:132
+msgid "Add bold text"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:132
+msgid "Show feature as unavailable with"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:139
+msgid "Plan button..."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:146
+msgid "Button text"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:146
+msgid "eg. 'Sign up, Buy'"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:154
+msgid "Button link"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:154
+msgid "eg. 'http://anything.com'"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:162
+msgid "...or a custom button instead"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:169
+msgid "Custom button code"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:169
+msgid "This field will overwrite the standard button fields"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:176
+msgid "Paste any button code here (Stripe, Paypal...)"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:181
+msgid "What is a custom button?"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:182
+msgid ""
+"Custom buttons are provided by third-party payment plateforms to allow "
+"direct redirection to the payment page. Paypal, Stripe as well as many "
+"other companies will generate buying buttons for you."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:182
+msgid ""
+"If you want your Pricing plan's footer to be replaced by a custom button, "
+"copy-paste the button code in this box. This will override the default "
+"button settings."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:182
+msgid ""
+"We do <strong>not</strong> recommend doing this as it may not always go "
+"well with the design."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:189
+msgid "Others"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:196
+msgid "Custom CSS classes"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:196
+msgid "Add classes to this plan like 'my-class another-class'"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:203
+msgid "Color"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:203
+msgid "This color will be used for several elements of the plan"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:213
+msgid "Settings"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:220
+msgid "General settings"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:227
+msgid "Change currency"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:227
+msgid "Add your currency sign here"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:234
+msgid "Links behavior"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:238
+msgid "Open in current window"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:239
+msgid "Open in new window/tab"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:247
+msgid "Force original fonts"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:247
+msgid "Check this to use the plugin's font instead of your theme's"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:248
+msgid "Check to enable"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:258
+msgid "Adjust font sizes"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:269 inc/rpt-metaboxes.php:282
+#: inc/rpt-metaboxes.php:307
+msgid "Tiny"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:270 inc/rpt-metaboxes.php:283
+#: inc/rpt-metaboxes.php:295 inc/rpt-metaboxes.php:308
+#: inc/rpt-metaboxes.php:321 inc/rpt-metaboxes.php:333
+#: inc/rpt-metaboxes.php:345
+msgid "Small"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:271 inc/rpt-metaboxes.php:284
+#: inc/rpt-metaboxes.php:296 inc/rpt-metaboxes.php:309
+#: inc/rpt-metaboxes.php:322 inc/rpt-metaboxes.php:334
+#: inc/rpt-metaboxes.php:346
+msgid "Normal"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:310
+msgid "Big"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:329
+msgid "Button"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:341
+msgid "Features"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:354
+msgid "Up to 5 plans"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:355
+msgid "You can add up to 5 plans per Pricing Table."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:355
+msgid "Adding more than that will result in display issues."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:384
+msgid "Help & Support"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:393
+msgid "Display your Pricing Table"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:393
+msgid ""
+"To display your Pricing Table on your site, copy-paste the "
+"<strong>[Shortcode]</strong> in your post/page. You can find this shortcode "
+"by clicking <strong>All Pricing Tables</strong> in the menu on the left."
+msgstr ""
+
+#: inc/rpt-metaboxes.php:393
+msgid "Get support"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:393
+msgid "Submit a ticket"
+msgstr ""
+
+#: inc/rpt-metaboxes.php:393
+msgid "View documentation"
+msgstr ""
+
+#: rpt.php:61 rpt.php:63
+msgid "Pricing Tables"
+msgstr ""
+
+#: rpt.php:62 rpt.php:64
+msgid "Pricing Table"
+msgstr ""
+
+#: rpt.php:65
+msgid "Add New"
+msgstr ""
+
+#: rpt.php:66
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: rpt.php:67
+msgid "New Pricing Table"
+msgstr ""
+
+#: rpt.php:68
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: rpt.php:69
+msgid "View Pricing Table"
+msgstr ""
+
+#: rpt.php:70
+msgid "All Pricing Tables"
+msgstr ""
+
+#: rpt.php:71
+msgid "Search Pricing Tables"
+msgstr ""
+
+#: rpt.php:72
+msgid "No Pricing Tables found."
+msgstr ""
+
+#: rpt.php:73
+msgid "No Pricing Tables found in Trash."
+msgstr ""
+
+#: rpt.php:99 rpt.php:100
+msgid "Pricing Table updated."
+msgstr ""
+
+#: rpt.php:101
+msgid "Pricing Table published."
+msgstr ""
+
+#: rpt.php:102
+msgid "Pricing Table saved."
+msgstr ""
+
+#: rpt.php:103
+msgid "Pricing Table draft updated."
+msgstr ""

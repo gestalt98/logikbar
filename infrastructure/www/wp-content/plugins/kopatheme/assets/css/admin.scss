@@ -1,0 +1,729 @@
+/**
+ * This file holds all style of
+ *	theme options,
+ *	sidebar manager
+ *	and layout manager pages
+ */
+$border:#d3d7da;
+$bg:#f8f8f8;
+%form-control {
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid $border;
+    box-shadow:0 0 8px 1px #e9e8e8 inset;
+}
+
+@mixin button(){
+    background: #499bea; /* Old browsers */
+    background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #499bea 0%,#207ce5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #499bea 0%,#207ce5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+    border: none;
+    border-radius: 0;
+    padding: 0 20px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: none;
+    cursor: pointer;
+    -moz-transition:all .3s;
+    -webkit-transition:all .3s;
+    transition:all .3s;	
+    &:hover {
+        background: #ff1a00; /* Old browsers */
+        background: -moz-linear-gradient(top, #ff1a00 0%, #ff1a00 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff1a00), color-stop(100%,#ff1a00)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #ff1a00 0%,#ff1a00 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #ff1a00 0%,#ff1a00 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #ff1a00 0%,#ff1a00 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #ff1a00 0%,#ff1a00 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#ff1a00',GradientType=0 ); /* IE6-9 */
+        color: #fff;
+    }
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table; }
+.clearfix:after {
+    clear: both; 
+}
+
+.kopa_group_description{
+    display: block;
+    margin: 20px 20px 10px 20px;
+    font-size: 10px;
+    font-style: italic;
+    color: #999;
+}
+
+#kopa_options_wrap {
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+        &:hover,&:focus {
+            text-decoration:none;
+            outline: none;
+        }
+    }
+    input[type="text"],input[type="email"],input[type="number"],input[type="password"],input[type="url"] {
+        @extend %form-control;
+        margin: 0;
+    }
+    textarea {
+        @extend %form-control;
+        height: 160px;
+        /*margin-bottom: 15px;*/
+    }
+    .kopa_sidebar_body,
+    .kopa_sidebar_before_widget,
+    .kopa_sidebar_after_widget, 
+    .kopa_sidebar_before_title, 
+    .kopa_sidebar_after_title,
+    .kopa_tab_pane {
+        display: none;
+    }
+    .kopa_hide { display: none; }
+
+    .kopa_tab_content {
+        min-height: 900px;
+    }
+    .postbox {
+        padding:0 0 30px 200px;
+        font-size: 14px;
+        line-height: 20px;
+        background: #fff;
+        border: 1px solid $border;
+        border-left: none;
+        box-shadow: none;
+        margin-top: 65px;
+    }
+    #kopa-logo{
+        position: absolute;
+        display: inline-block;
+        left: 53px;
+        top: -20px;
+        z-index: 9;
+    }
+    .kopa_nav_tabs {
+        margin: 0;
+        background: #32323a;
+        padding-top: 115px;
+        position: relative;
+        z-index: 1;
+        li {
+            margin-bottom: 0;
+            padding-left: 20px;
+            border-top: 1px solid #3b3b43;
+            position: relative;
+            cursor: pointer;
+            &.kopa_nav_active,&:hover {
+                background: #1189c4;
+                &:before {
+                    display: inline-block;
+                    font-family: FontAwesome;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    content: "\f105";
+                    position: absolute;
+                    right: 18px;
+                    top: 15px;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+        }
+        a {
+            color: #fff;
+            padding: 14px 0;
+            display: inline-block;
+        }
+        &:before {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 85px;
+            background: #28282e;
+            position: absolute;
+            top: -55px;
+            left: 0;
+        }
+        span {
+            color: #fff;
+            margin-right: 10px;
+        }
+    }
+    .kopa_nav_tab_wrapper {
+        background: #fff;
+        padding: 0;
+        line-height: 60px;
+        border-top: 1px solid $border;
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: -55px;
+        z-index: 9;
+        border-bottom: 1px solid $border;
+        .kopa_nav_tab {
+            border-right: 1px solid $border;
+            padding: 0 55px;
+            display: inline-block;
+            color: #4b4b4b;
+            float: left;
+            background: $bg;
+            text-transform: uppercase;
+            &:first-child {
+                border-left:none;
+            }
+            &.kopa_nav_tab_active{
+                background: #fff;
+            }
+            &:hover {
+                background: #fff;
+            }
+        }
+    }
+    .kopa_tab_content {
+        background: #fff;
+        padding: 0 20px;
+        .kopa_heading {
+            font-size: 14px;
+            font-weight: 700;
+            color: #555;
+            border-bottom: none;
+            padding: 0;
+            margin: 0 0 10px;
+            line-height: 1.4;
+        }
+        .kopa_description {
+            margin-bottom: 10px;
+            margin-top: -10px;
+            font-size: 11px;
+            p{
+                font-size: 11px;
+            }			
+        }
+        .kopa_section {
+            padding: 20px;
+            border: 1px solid $border;
+            margin-top: -1px;
+        }
+    }
+    .kopa_section_group {
+        position: relative;
+        margin: 40px 0;
+        border: 1px solid $border;
+        .kopa_section_group {
+            margin: 20px;
+        }
+        .kopa_section {
+            border-width: 0 0 1px 0;
+        }
+        .kopa_section:last-child {
+            border-width: 0;
+        }
+    }
+    .kopa_section_group.kopa_section_group_layout {
+        .kopa_section,
+        .kopa_section:last-child {
+            border-width: 1px;
+        }
+    }
+    .kopa_heading_group {
+        position: absolute;
+        left: 15px;
+        top: -12px;
+        padding: 0 8px;
+        display: inline-block;
+        background: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        color: #333333;
+        border-bottom: none;
+        margin: 0;
+        cursor: default;
+        line-height: 1.4;
+    }
+
+    .kopa_controls {
+        position: relative;
+        @extend .clearfix;
+        select {
+            margin: 0;
+            @extend %form-control;
+        }
+        #multi-select-field {
+            height: auto;
+        }
+        .kopa_sidebar_add_button {
+            position: absolute;
+            @include button();
+            height: 28px;
+            line-height: 28px;
+            top: 4px;
+            right: 5px;
+        }
+        .kopa_upload_button,.kopa_remove_file {
+            position: absolute;
+            right: -1px;
+            top: 0;
+            @extend %form-control;
+            display: inline-block;
+            width: auto;
+            background: #f7f7f7;
+            border-radius: 0;
+            &:hover {
+                background:#fafafa;
+            }
+        }
+        .wp-color-picker {
+            font-size: 12px;
+            width: 65px;
+            line-height: 16px;
+            height: auto;
+            padding: 3px 5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+            border: 1px solid #d3d7da;
+            display: inline-block;
+        }
+        .kopa_select_font,
+        .kopa_select_font_style,
+        .kopa_select_font_size,
+        .wp-picker-container {
+            float: left;
+            margin-right: 20px;
+        }
+        .kopa_select_font {
+            width: 300px;
+            optgroup {
+                width: 280px;
+            }
+        }
+        .kopa_select_font_style {
+            width: 120px;
+        }
+        .kopa_select_font_size {
+            width: 100px;
+        }
+    }
+    .kopa_section_multiselect {
+        select {
+            height: 150px;
+        }
+    }
+
+
+    #kopa_options_submit,#kopa_options_submit_top {
+        padding: 8px 20px;
+        margin: -1px 20px 0 20px;
+        background: #f8f8f8;
+        border: 1px solid $border;
+    }
+    input[type="submit"] {
+        @include button();
+    }
+    .kopa_group_content {
+        padding-top: 1px;		
+    }
+    .kopa_section_layout_image {
+        padding-left: 20px;
+        float: right;
+        width: 65%;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .kopa_section_select_layout,.kopa_section_select_area_container {
+        float: left;
+        width: 35%
+    }
+    .kopa_section_group_layout {
+        padding: 20px;
+        border: 1px solid $border;
+        .kopa_section {
+            padding: 15px 20px 20px;
+        }
+        .kopa_section_select_layout {
+            margin-bottom: 10px;
+        }
+    }
+    #blog {
+        margin-top: 40px;
+    }
+    .iris-picker {
+        box-sizing:content-box;
+    }
+    .wp-color-result,.ui-slider-handle {
+        box-sizing:content-box;
+    }
+    .kopa_google_font_preview {
+        @extend .clearfix;
+        float: left;
+        width: 100%;
+        margin: 25px 0 0;
+    }
+    .kopa_select_custom_font {
+        @extend .clearfix;
+        position: relative;
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        input[type="text"] {			
+            float: left;
+            margin: 0;
+            &.kopa_select_custom_font_name {
+                margin-right: 20px;
+                width: 300px;
+            }
+            &.kopa_select_custom_font_url {
+                width: 544px;
+                padding-right: 80px;
+            }
+        }
+    }
+    .kopa_select_font {
+        border: 1px solid #d3d7da !important;
+    }
+    .kopa_screenshot {
+        position: relative;
+        display: inline-block;
+        img {
+            max-width: 300px;
+            display: block;
+            height: auto;
+            margin-top: 20px;
+        }
+        .kopa_remove_image {
+            position: absolute;
+            bottom: -15px;
+            right: -8px;
+            cursor: pointer;
+            color: red;
+            font-size: 0;
+            &:before {
+                content: "\f00d";
+                display: inline-block;
+                font-family: FontAwesome;
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-size: 20px;
+            }
+        }
+        &.kopa_hide {
+            display: none;
+        }
+    }
+    .kopa_reset,.kopa_export {
+        margin-top: 20px;
+    }
+    .kopa_sidebar_header {
+        @extend .clearfix;
+        text-align: right;
+        cursor: move;
+        > a {
+            margin-left: 10px;
+        }
+        strong {
+            float: left;
+        }
+    }
+    .kopa_sidebar_body {
+        > label {
+            margin: 0;
+            display: block;
+        }
+        .kopa_sidebar {
+            margin-top: 10px;
+        }
+    }
+    .kopa_sidebar_sortable {
+        margin: 20px 0 0;
+        > li {
+            margin-top: 20px;
+            margin-bottom: 0;
+            @extend %form-control;
+            padding: 0;
+            box-shadow: none;
+            height: auto;
+            border: none;
+            &:first-child {
+                margin-top:0;
+            }
+        }
+
+        .kopa_sidebar_header {
+            @extend %form-control;
+            border: 1px solid $border;
+            padding: 8px 12px;
+            background: $bg;
+            position: relative;
+            box-shadow: none;
+            transition:all .3s;
+            &:hover {
+                border-color:#444;
+                box-shadow: 0 1px 2px rgba(0,0,0,.1);
+            }
+            a {
+                position: absolute;
+                @include button();
+                height: 28px;
+                line-height: 28px;
+                top: 4px;
+                right: 5px;
+            }
+            .kopa_sidebar_edit_button {
+                right: 92px;
+            }
+        }
+        .kopa_sidebar_body {
+            padding: 20px;
+            border: 1px solid $border;
+            border-top: none;
+            .kopa_sidebar_control_actions {
+                margin-top: 10px;
+                .spinner {
+                    margin-top: 0;
+                    margin-right: 700px;
+                }
+            }
+
+        }
+    }
+    .kopa_section_import {
+        input[type="file"] {
+            border: 1px solid $border;
+            margin: 0;
+            padding: 8px 0 8px 6px;
+        }
+    }
+    @-moz-document url-prefix() {
+        .kopa_section_import {
+            input[type="file"] {
+                padding: 7px 0 7px 6px;
+            }
+        }
+    }
+    .kopa_sidebar_header .spinner {
+        margin-top: 0;
+        margin-right: 150px;
+    }
+    .kopa_section_custom_font_manager {
+        .kopa_custom_font_item {
+            margin-bottom: 20px;
+
+            position: relative;	
+            &:first-child {
+                margin-top:0;
+            }
+        }
+        .kopa_custom_font_title {
+            background-color: $bg;
+            background-image: none;
+            display: block;
+            font-size: 14px;
+            height: 37px;
+            line-height: 20px;
+            vertical-align: middle;
+            width: 100%;
+            border: 1px solid $border;
+            padding: 8px 12px;
+            position: relative;
+            cursor: move;
+            transition:all .3s;
+            &:hover {
+                border-color:#444;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            }
+        }
+        .kopa_section {
+            padding: 0;
+            border: none;
+            margin-bottom: 10px;
+        }
+        .kopa_custom_font_inside {
+            &.kopa_hide {
+                border: 1px solid $border;
+                border-top: none;
+                padding: 20px;
+            }
+        }
+        .kopa_custom_font_top {
+            position: relative;
+        }
+    }
+    .kopa_custom_font_title_action,.kopa_sidebar_title_action {
+        position: absolute;
+        cursor: pointer;
+        right: 0;
+        width: 36px;
+        height: 36px;
+        top: 0;
+        z-index: 9999;
+        &:before {
+            display: inline-block;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            content: "\f0d7";
+            position: absolute;
+            top: 13px;
+            right: 12px;
+            font-size: 20px/1;
+        }
+        &.kopa_action_close {			
+            &:before {
+                content: "\f0d8";
+            }
+        }
+    }
+    .kopa_sidebar_add_button.kopa_button_inactive {
+        cursor: default;
+        background: #ccc;
+        &:hover {
+            background: #ccc;
+        }
+
+    }
+    .ui-sortable-placeholder {
+        border: 1px dashed $border !important;
+        visibility: visible !important;
+        display: block;
+        box-shadow: none !important;
+    }
+    .ui-sortable-helper {
+        opacity: 0.8;
+    }
+    .kopa_options_sidebar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #32323a;
+        width: 200px;
+        height: 100%;
+    }
+    .kopa_sidebar_menu_mobile_icon {
+        display: none;
+    }
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+.kopa-widget-block{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.kopa_section_group_layout{
+    .kopa_group_content{
+        overflow: hidden;
+    }
+
+    .kopa_section_layout_image img{
+        padding: 2px;
+        border: 1px solid #ddd;
+        background-color: #fafafa;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+
+    #kopa_options_wrap {
+        .postbox {
+            margin-top: 0;
+            padding-left: 50px;
+        }
+        .kopa_options_sidebar {
+            width: 50px;
+            background: $bg;
+            border-right: 1px solid $border;
+            border-left: 1px solid $border;
+        }
+        .kopa_sidebar_menu_mobile_icon {
+            display: inline-block;
+            line-height: 50px;
+            text-align: center;
+            color: #32323a;
+            font-size: 26px;
+            width: 50px;
+            cursor: pointer;
+            border-bottom: 1px solid $border;
+        }
+        .kopa_nav_tabs {
+            display: none;
+            position: absolute;
+            width: 200px;
+            top: 50px;
+            left: 0;
+            z-index: 9;
+            padding-top: 0;
+            &:before {
+                display:none;
+            }
+        }
+        #kopa-logo {
+            display: none;
+        }
+        .kopa_nav_tab_wrapper {
+            margin-top: 0;
+            border-top: none;
+            line-height: 50px;
+            .kopa_nav_tab {
+                padding:  0 25px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+    #kopa_options_wrap {
+        .kopa_nav_tab_wrapper {
+            .kopa_nav_tab {
+                padding: 0 45px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    #kopa_options_wrap {
+        .kopa_nav_tab_wrapper {
+            .kopa_nav_tab {
+                padding: 0 15px;
+            }
+        }
+    }
+}

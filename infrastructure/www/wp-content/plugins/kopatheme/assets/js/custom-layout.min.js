@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){function o(){this.checked?e(".kopa_section_group_layout").find("select").removeAttr("disabled"):e(".kopa_section_group_layout").find("select").attr("disabled","disabled")}e(".kopa_use_custom_layout").each(o),e(".kopa_use_custom_layout").on("click",o)});

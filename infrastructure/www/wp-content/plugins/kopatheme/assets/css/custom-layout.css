@@ -1,0 +1,103 @@
+/**
+ * This file holds all style of
+ *	theme options,
+ *	sidebar manager
+ *	and layout manager pages
+ */
+.kopa_section_group_layout input[type="text"] {
+  display: block;
+  width: 100%;
+  height: 37px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #d3d7da;
+  box-shadow: 0 0 8px 1px #e9e8e8 inset;
+}
+
+.clearfix:before, .kopa_section_group_layout .kopa_controls:before, .clearfix:after, .kopa_section_group_layout .kopa_controls:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after, .kopa_section_group_layout .kopa_controls:after {
+  clear: both;
+}
+
+.kopa_section_group_layout * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.kopa_section_group_layout a {
+  text-decoration: none;
+}
+.kopa_section_group_layout a:hover, .kopa_section_group_layout a:focus {
+  text-decoration: none;
+  outline: none;
+}
+.kopa_section_group_layout input[type="text"] {
+  margin: 0;
+}
+.kopa_section_group_layout .kopa_section_group {
+  position: relative;
+}
+.kopa_section_group_layout .kopa_controls {
+  position: relative;
+}
+.kopa_section_group_layout .kopa_controls select {
+  margin: 0;
+  width: 100%;
+}
+.kopa_section_group_layout .kopa_group_content {
+  overflow: hidden;
+}
+.kopa_section_group_layout .kopa_section_layout_image {
+  padding-left: 20px;
+  float: right;
+  width: 65%;
+}
+.kopa_section_group_layout .kopa_section_layout_image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d3d7da;
+}
+.kopa_section_group_layout .kopa_section {
+  padding: 15px 20px 20px;
+  border: 1px solid #d3d7da;
+  margin-top: -1px;
+  background: #fff;
+}
+.kopa_section_group_layout .kopa_section_select_layout {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.kopa_section_group_layout .kopa_section_select_layout, .kopa_section_group_layout .kopa_section_select_area_container {
+  float: left;
+  width: 35%;
+}
+.kopa_section_group_layout label {
+  margin-bottom: 20px;
+  margin-top: 9px;
+  display: inline-block;
+}
+.kopa_section_group_layout .kopa_heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #555;
+  border-bottom: none;
+  padding: 0;
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+.kopa_section_group_layout .kopa_section_select_area_container, .kopa_section_group_layout .kopa_section_layout_image {
+  display: none;
+}
+
+td .kopa_section_group_layout label {
+  margin-top: 5px;
+}

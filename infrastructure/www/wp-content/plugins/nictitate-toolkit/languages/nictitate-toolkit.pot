@@ -1,0 +1,923 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nictitate Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Sep 23 2015 11:33:59 GMT+0700 (ICT)\n"
+"POT-Revision-Date: Wed Sep 23 2015 11:34:04 GMT+0700 (ICT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Nictitate Toolkit"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://kopatheme.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A specific plugin use in Nictitate Theme to help you register post types and "
+"shortcodes."
+msgstr ""
+
+#. Author of the plugin
+msgid "Kopatheme"
+msgstr ""
+
+#: ../shortcodes.php:360
+msgid "Name (required):"
+msgstr ""
+
+#: ../shortcodes.php:365
+msgid "Email (required):"
+msgstr ""
+
+#: ../shortcodes.php:370
+msgid "Website:"
+msgstr ""
+
+#: ../shortcodes.php:375
+msgid "Message (required):"
+msgstr ""
+
+#: ../shortcodes.php:380
+msgid "Send"
+msgstr ""
+
+#: ../shortcodes.php:396
+msgid "Contact Information"
+msgstr ""
+
+#: ../shortcodes.php:399
+msgid "Where to find Us?"
+msgstr ""
+
+#: ../shortcodes.php:483
+msgid "Pricing Table"
+msgstr ""
+
+#: ../shortcodes.php:505
+msgid "Pricing Column"
+msgstr ""
+
+#: ../shortcodes.php:508
+msgid "per monthly"
+msgstr ""
+
+#: ../shortcodes.php:509
+msgid "feature 1, feature 2, feature 3, ext..."
+msgstr ""
+
+#: ../shortcodes.php:511
+msgid "Sign up"
+msgstr ""
+
+#: ../util.php:6 ../util.php:12
+msgid "-- none --"
+msgstr ""
+
+#: ../util.php:21 ../widgets/widget_clients.php:15 ../widgets/widget_portfolios.
+#: php:15 ../widgets/widget_posts_carousel.php:26 ../widgets/widget_posts_list.
+#: php:27 ../widgets/widget_sequence_slider.php:27 ../widgets/widget_services.php:
+#: 15 ../widgets/widget_services_intro.php:15 ../widgets/widget_services_tabs.php:
+#: 15 ../widgets/widget_skill.php:15 ../widgets/widget_staffs.php:15 ..
+#: /widgets/widget_subscribe.php:17 ../widgets/widget_testimonials.php:15 ..
+#: /widgets/widget_text.php:47
+msgid "Title:"
+msgstr ""
+
+#: ../util.php:26 ../widgets/widget_clients.php:47 ../widgets/widget_portfolios.
+#: php:47 ../widgets/widget_posts_carousel.php:31 ../widgets/widget_posts_list.
+#: php:32 ../widgets/widget_sequence_slider.php:32 ../widgets/widget_services.php:
+#: 47 ../widgets/widget_services_intro.php:47 ../widgets/widget_services_tabs.php:
+#: 47 ../widgets/widget_skill.php:47 ../widgets/widget_staffs.php:47 ..
+#: /widgets/widget_testimonials.php:47
+msgid "Categories:"
+msgstr ""
+
+#: ../util.php:32 ../widgets/widget_clients.php:54 ../widgets/widget_portfolios.
+#: php:54 ../widgets/widget_posts_carousel.php:37 ../widgets/widget_posts_list.
+#: php:38 ../widgets/widget_sequence_slider.php:38 ../widgets/widget_services.php:
+#: 54 ../widgets/widget_services_intro.php:54 ../widgets/widget_services_tabs.php:
+#: 54 ../widgets/widget_skill.php:54 ../widgets/widget_staffs.php:54 ..
+#: /widgets/widget_testimonials.php:54
+msgid "Relation:"
+msgstr ""
+
+#: ../util.php:35 ../widgets/widget_clients.php:57 ../widgets/widget_portfolios.
+#: php:57 ../widgets/widget_posts_carousel.php:40 ../widgets/widget_posts_list.
+#: php:41 ../widgets/widget_sequence_slider.php:41 ../widgets/widget_services.php:
+#: 57 ../widgets/widget_services_intro.php:57 ../widgets/widget_services_tabs.php:
+#: 57 ../widgets/widget_skill.php:57 ../widgets/widget_staffs.php:57 ..
+#: /widgets/widget_testimonials.php:57
+msgid "AND"
+msgstr ""
+
+#: ../util.php:36 ../widgets/widget_clients.php:58 ../widgets/widget_portfolios.
+#: php:58 ../widgets/widget_posts_carousel.php:41 ../widgets/widget_posts_list.
+#: php:42 ../widgets/widget_sequence_slider.php:42 ../widgets/widget_services.php:
+#: 58 ../widgets/widget_services_intro.php:58 ../widgets/widget_services_tabs.php:
+#: 58 ../widgets/widget_skill.php:58 ../widgets/widget_staffs.php:58 ..
+#: /widgets/widget_testimonials.php:58
+msgid "OR"
+msgstr ""
+
+#: ../util.php:42 ../widgets/widget_clients.php:65 ../widgets/widget_portfolios.
+#: php:65 ../widgets/widget_posts_carousel.php:47 ../widgets/widget_posts_list.
+#: php:48 ../widgets/widget_sequence_slider.php:48 ../widgets/widget_services.php:
+#: 65 ../widgets/widget_services_intro.php:65 ../widgets/widget_services_tabs.php:
+#: 65 ../widgets/widget_skill.php:65 ../widgets/widget_staffs.php:65 ..
+#: /widgets/widget_testimonials.php:65
+msgid "Tags:"
+msgstr ""
+
+#: ../util.php:49
+msgid "Order:"
+msgstr ""
+
+#: ../util.php:51
+msgid "ASC"
+msgstr ""
+
+#: ../util.php:52
+msgid "DESC"
+msgstr ""
+
+#: ../util.php:58 ../widgets/widget_clients.php:73 ../widgets/widget_portfolios.
+#: php:73 ../widgets/widget_posts_carousel.php:54 ../widgets/widget_posts_list.
+#: php:55 ../widgets/widget_sequence_slider.php:55 ../widgets/widget_services.php:
+#: 73 ../widgets/widget_services_intro.php:73 ../widgets/widget_services_tabs.php:
+#: 73 ../widgets/widget_skill.php:73 ../widgets/widget_staffs.php:73 ..
+#: /widgets/widget_testimonials.php:73
+msgid "Orderby:"
+msgstr ""
+
+#: ../util.php:60 ../widgets/widget_clients.php:75 ../widgets/widget_portfolios.
+#: php:75 ../widgets/widget_posts_carousel.php:56 ../widgets/widget_posts_list.
+#: php:57 ../widgets/widget_sequence_slider.php:57 ../widgets/widget_services.php:
+#: 75 ../widgets/widget_services_intro.php:75 ../widgets/widget_services_tabs.php:
+#: 75 ../widgets/widget_skill.php:75 ../widgets/widget_staffs.php:75 ..
+#: /widgets/widget_testimonials.php:75
+msgid "Date"
+msgstr ""
+
+#: ../util.php:61 ../widgets/widget_clients.php:76 ../widgets/widget_portfolios.
+#: php:76 ../widgets/widget_posts_carousel.php:57 ../widgets/widget_posts_list.
+#: php:58 ../widgets/widget_sequence_slider.php:58 ../widgets/widget_services.php:
+#: 76 ../widgets/widget_services_intro.php:76 ../widgets/widget_services_tabs.php:
+#: 76 ../widgets/widget_skill.php:76 ../widgets/widget_staffs.php:76 ..
+#: /widgets/widget_testimonials.php:76
+msgid "Random"
+msgstr ""
+
+#: ../util.php:62 ../widgets/widget_posts_carousel.php:58 ..
+#: /widgets/widget_posts_list.php:59
+msgid "Number of comments"
+msgstr ""
+
+#: ../util.php:68 ../widgets/widget_clients.php:83 ../widgets/widget_portfolios.
+#: php:83 ../widgets/widget_posts_carousel.php:64 ../widgets/widget_posts_list.
+#: php:65 ../widgets/widget_sequence_slider.php:64 ../widgets/widget_services.php:
+#: 83 ../widgets/widget_services_intro.php:83 ../widgets/widget_services_tabs.php:
+#: 83 ../widgets/widget_skill.php:83 ../widgets/widget_staffs.php:83 ..
+#: /widgets/widget_testimonials.php:83
+msgid "Number of posts:"
+msgstr ""
+
+#: ../posttype/client/client.php:7 ../posttype/client/client.php:19
+msgid "Clients"
+msgstr ""
+
+#: ../posttype/client/client.php:8
+msgid "Client"
+msgstr ""
+
+#: ../posttype/client/client.php:9 ../posttype/portfolio/portfolio.php:9 ..
+#: /posttype/service/service.php:9 ../posttype/staff/staff.php:9 ..
+#: /posttype/testimonial/testimonial.php:9
+msgid "Add New"
+msgstr ""
+
+#: ../posttype/client/client.php:10 ../posttype/portfolio/portfolio.php:10 ..
+#: /posttype/service/service.php:10 ../posttype/staff/staff.php:10 ..
+#: /posttype/testimonial/testimonial.php:10
+msgid "Add New Item"
+msgstr ""
+
+#: ../posttype/client/client.php:11 ../posttype/portfolio/portfolio.php:11 ..
+#: /posttype/service/service.php:11 ../posttype/staff/staff.php:11 ..
+#: /posttype/testimonial/testimonial.php:11
+msgid "Edit Item"
+msgstr ""
+
+#: ../posttype/client/client.php:12 ../posttype/portfolio/portfolio.php:12 ..
+#: /posttype/service/service.php:12 ../posttype/staff/staff.php:12 ..
+#: /posttype/testimonial/testimonial.php:12
+msgid "New Item"
+msgstr ""
+
+#: ../posttype/client/client.php:13 ../posttype/portfolio/portfolio.php:13 ..
+#: /posttype/service/service.php:13 ../posttype/staff/staff.php:13 ..
+#: /posttype/testimonial/testimonial.php:13
+msgid "All Items"
+msgstr ""
+
+#: ../posttype/client/client.php:14 ../posttype/portfolio/portfolio.php:14 ..
+#: /posttype/service/service.php:14 ../posttype/staff/staff.php:14 ..
+#: /posttype/testimonial/testimonial.php:14
+msgid "View Item"
+msgstr ""
+
+#: ../posttype/client/client.php:15 ../posttype/portfolio/portfolio.php:15 ..
+#: /posttype/service/service.php:15 ../posttype/staff/staff.php:15 ..
+#: /posttype/testimonial/testimonial.php:15
+msgid "Search Items"
+msgstr ""
+
+#: ../posttype/client/client.php:16 ../posttype/portfolio/portfolio.php:16 ..
+#: /posttype/service/service.php:16 ../posttype/staff/staff.php:16 ..
+#: /posttype/testimonial/testimonial.php:16
+msgid "No items found"
+msgstr ""
+
+#: ../posttype/client/client.php:17 ../posttype/portfolio/portfolio.php:17 ..
+#: /posttype/service/service.php:17 ../posttype/staff/staff.php:17 ..
+#: /posttype/testimonial/testimonial.php:17
+msgid "No items found in Trash"
+msgstr ""
+
+#: ../posttype/client/client.php:46 ../posttype/client/client.php:60
+msgid "Client Categories"
+msgstr ""
+
+#: ../posttype/client/client.php:47 ../posttype/service/service.php:47 ..
+#: /posttype/staff/staff.php:47 ../posttype/testimonial/testimonial.php:47
+msgid "Category"
+msgstr ""
+
+#: ../posttype/client/client.php:48 ../posttype/service/service.php:48 ..
+#: /posttype/staff/staff.php:48 ../posttype/testimonial/testimonial.php:48
+msgid "Search Category"
+msgstr ""
+
+#: ../posttype/client/client.php:49
+msgid "Popular Clients"
+msgstr ""
+
+#: ../posttype/client/client.php:50
+msgid "All Clients"
+msgstr ""
+
+#: ../posttype/client/client.php:53
+msgid "Edit Client"
+msgstr ""
+
+#: ../posttype/client/client.php:54
+msgid "Update Client"
+msgstr ""
+
+#: ../posttype/client/client.php:55
+msgid "Add New Client"
+msgstr ""
+
+#: ../posttype/client/client.php:56
+msgid "New Client Name"
+msgstr ""
+
+#: ../posttype/client/client.php:57 ../posttype/service/service.php:57 ..
+#: /posttype/staff/staff.php:57 ../posttype/testimonial/testimonial.php:57
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../posttype/client/client.php:58 ../posttype/portfolio/portfolio.php:58 ..
+#: /posttype/service/service.php:58 ../posttype/staff/staff.php:58 ..
+#: /posttype/testimonial/testimonial.php:58
+msgid "Add or remove category"
+msgstr ""
+
+#: ../posttype/client/client.php:59 ../posttype/service/service.php:59 ..
+#: /posttype/staff/staff.php:59 ../posttype/testimonial/testimonial.php:59
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../posttype/client/client.php:78 ../posttype/client/client.php:92
+msgid "Client Tags"
+msgstr ""
+
+#: ../posttype/client/client.php:79 ../posttype/portfolio/portfolio.php:79 ..
+#: /posttype/service/service.php:79 ../posttype/staff/staff.php:79 ..
+#: /posttype/testimonial/testimonial.php:79
+msgid "Tag"
+msgstr ""
+
+#: ../posttype/client/client.php:80 ../posttype/portfolio/portfolio.php:80 ..
+#: /posttype/service/service.php:80 ../posttype/staff/staff.php:80 ..
+#: /posttype/testimonial/testimonial.php:80
+msgid "Search Tag"
+msgstr ""
+
+#: ../posttype/client/client.php:81 ../posttype/portfolio/portfolio.php:81 ..
+#: /posttype/service/service.php:81 ../posttype/staff/staff.php:81 ..
+#: /posttype/testimonial/testimonial.php:81
+msgid "Popular Tags"
+msgstr ""
+
+#: ../posttype/client/client.php:82 ../posttype/portfolio/portfolio.php:82 ..
+#: /posttype/service/service.php:82 ../posttype/staff/staff.php:82 ..
+#: /posttype/testimonial/testimonial.php:82
+msgid "All Tags"
+msgstr ""
+
+#: ../posttype/client/client.php:85 ../posttype/portfolio/portfolio.php:85 ..
+#: /posttype/service/service.php:85 ../posttype/staff/staff.php:85 ..
+#: /posttype/testimonial/testimonial.php:85
+msgid "Edit Tag"
+msgstr ""
+
+#: ../posttype/client/client.php:86 ../posttype/portfolio/portfolio.php:86 ..
+#: /posttype/service/service.php:86 ../posttype/staff/staff.php:86 ..
+#: /posttype/testimonial/testimonial.php:86
+msgid "Update Tag"
+msgstr ""
+
+#: ../posttype/client/client.php:87 ../posttype/portfolio/portfolio.php:87 ..
+#: /posttype/service/service.php:87 ../posttype/staff/staff.php:87 ..
+#: /posttype/testimonial/testimonial.php:87
+msgid "Add New Tag"
+msgstr ""
+
+#: ../posttype/client/client.php:88 ../posttype/portfolio/portfolio.php:88 ..
+#: /posttype/service/service.php:88 ../posttype/staff/staff.php:88 ..
+#: /posttype/testimonial/testimonial.php:88
+msgid "New Tag Name"
+msgstr ""
+
+#: ../posttype/client/client.php:89 ../posttype/portfolio/portfolio.php:89 ..
+#: /posttype/service/service.php:89 ../posttype/staff/staff.php:89 ..
+#: /posttype/testimonial/testimonial.php:89
+msgid "Separate tags with commas"
+msgstr ""
+
+#: ../posttype/client/client.php:90 ../posttype/portfolio/portfolio.php:90 ..
+#: /posttype/service/service.php:90 ../posttype/staff/staff.php:90 ..
+#: /posttype/testimonial/testimonial.php:90
+msgid "Add or remove tag"
+msgstr ""
+
+#: ../posttype/client/client.php:91 ../posttype/portfolio/portfolio.php:91 ..
+#: /posttype/service/service.php:91 ../posttype/staff/staff.php:91 ..
+#: /posttype/testimonial/testimonial.php:91
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ../posttype/client/options_client.php:16
+msgid "Client URL"
+msgstr ""
+
+#: ../posttype/portfolio/options_portfolio.php:16
+msgid "Thumbnail size"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:7
+msgid "Portfolios"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:8 ../posttype/portfolio/portfolio.php:19
+msgid "Portfolio"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:46
+msgid "Portfolio Projects"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:47
+msgid "Project"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:48
+msgid "Search Project"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:49
+msgid "Popular Projects"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:50
+msgid "All Projects"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:53
+msgid "Edit Project"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:54
+msgid "Update Project"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:55
+msgid "Add New Project"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:56
+msgid "New Project Name"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:57
+msgid "Separate projects with commas"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:59
+msgid "Choose from the most used projects"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:60
+msgid "Projects"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:78
+msgid "Portfolio Tags"
+msgstr ""
+
+#: ../posttype/portfolio/portfolio.php:92
+msgid "Tags"
+msgstr ""
+
+#: ../posttype/post/options_post.php:16
+msgid "Slider Background Image"
+msgstr ""
+
+#: ../posttype/post/options_post.php:18
+msgid "Upload your own slider background image."
+msgstr ""
+
+#: ../posttype/service/options_service.php:27
+msgid "Link to external page"
+msgstr ""
+
+#: ../posttype/service/options_service.php:34
+msgid "Link to static page"
+msgstr ""
+
+#: ../posttype/service/options_service.php:41
+msgid "Service Expertise"
+msgstr ""
+
+#: ../posttype/service/options_service.php:48
+msgid "Icon"
+msgstr ""
+
+#: ../posttype/service/service.php:7 ../posttype/service/service.php:19
+msgid "Services"
+msgstr ""
+
+#: ../posttype/service/service.php:8
+msgid "Service"
+msgstr ""
+
+#: ../posttype/service/service.php:46 ../posttype/service/service.php:60
+msgid "Service Categories"
+msgstr ""
+
+#: ../posttype/service/service.php:49
+msgid "Popular Services"
+msgstr ""
+
+#: ../posttype/service/service.php:50
+msgid "All Services"
+msgstr ""
+
+#: ../posttype/service/service.php:53
+msgid "Edit Service"
+msgstr ""
+
+#: ../posttype/service/service.php:54
+msgid "Update Service"
+msgstr ""
+
+#: ../posttype/service/service.php:55
+msgid "Add New Service"
+msgstr ""
+
+#: ../posttype/service/service.php:56
+msgid "New Service Name"
+msgstr ""
+
+#: ../posttype/service/service.php:78 ../posttype/service/service.php:92
+msgid "Service Tags"
+msgstr ""
+
+#: ../posttype/staff/options_staff.php:16
+msgid "Position"
+msgstr ""
+
+#: ../posttype/staff/options_staff.php:23
+msgid "Facebook"
+msgstr ""
+
+#: ../posttype/staff/options_staff.php:30
+msgid "Twitter"
+msgstr ""
+
+#: ../posttype/staff/options_staff.php:37
+msgid "Google Plus"
+msgstr ""
+
+#: ../posttype/staff/staff.php:7 ../posttype/staff/staff.php:19
+msgid "Staffs"
+msgstr ""
+
+#: ../posttype/staff/staff.php:8
+msgid "Staff"
+msgstr ""
+
+#: ../posttype/staff/staff.php:46 ../posttype/staff/staff.php:60
+msgid "Staff Categories"
+msgstr ""
+
+#: ../posttype/staff/staff.php:49
+msgid "Popular Staffs"
+msgstr ""
+
+#: ../posttype/staff/staff.php:50
+msgid "All Staffs"
+msgstr ""
+
+#: ../posttype/staff/staff.php:53
+msgid "Edit Staff"
+msgstr ""
+
+#: ../posttype/staff/staff.php:54
+msgid "Update Staff"
+msgstr ""
+
+#: ../posttype/staff/staff.php:55
+msgid "Add New Staff"
+msgstr ""
+
+#: ../posttype/staff/staff.php:56
+msgid "New Staff Name"
+msgstr ""
+
+#: ../posttype/staff/staff.php:78 ../posttype/staff/staff.php:92
+msgid "Staff Tags"
+msgstr ""
+
+#: ../posttype/testimonial/options_testimonial.php:16
+msgid "Author URL"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:7 ../posttype/testimonial/testimonial.
+#: php:19
+msgid "Testimonials"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:46 ../posttype/testimonial/testimonial.
+#: php:60
+msgid "Testimonial Categories"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:49
+msgid "Popular Testimonials"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:50
+msgid "All Testimonials"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:53
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:54
+msgid "Update Testimonial"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:55
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:56
+msgid "New Testimonial Name"
+msgstr ""
+
+#: ../posttype/testimonial/testimonial.php:78 ../posttype/testimonial/testimonial.
+#: php:92
+msgid "Testimonial Tags"
+msgstr ""
+
+#: ../widgets/widget_about.php:10
+msgid "Display a gallery and description."
+msgstr ""
+
+#: ../widgets/widget_about.php:12
+msgid "[NICTITATE] - About"
+msgstr ""
+
+#: ../widgets/widget_about.php:17 ../widgets/widget_categories.php:17 ..
+#: /widgets/widget_contact_form.php:17 ../widgets/widget_flickr.php:17 ..
+#: /widgets/widget_socials.php:17 ../widgets/widget_tagline.php:17
+msgid "Title"
+msgstr ""
+
+#: ../widgets/widget_about.php:22
+msgid "Image IDs"
+msgstr ""
+
+#: ../widgets/widget_about.php:23
+msgid "Image Attachment IDs, separated by commas."
+msgstr ""
+
+#: ../widgets/widget_about.php:28 ../widgets/widget_contact_form.php:22
+msgid "Description"
+msgstr ""
+
+#: ../widgets/widget_categories.php:10
+msgid "Categories widget."
+msgstr ""
+
+#: ../widgets/widget_categories.php:12
+msgid "[NICTITATE] - Categories"
+msgstr ""
+
+#: ../widgets/widget_categories.php:16
+msgid "Categories"
+msgstr ""
+
+#: ../widgets/widget_categories.php:57
+msgid "All Categories"
+msgstr ""
+
+#: ../widgets/widget_clients.php:8
+msgid "Display a clients widget."
+msgstr ""
+
+#: ../widgets/widget_clients.php:10
+msgid "[NICTITATE] - Clients"
+msgstr ""
+
+#: ../widgets/widget_clients.php:33 ../widgets/widget_clients.php:39 ..
+#: /widgets/widget_portfolios.php:33 ../widgets/widget_portfolios.php:39 ..
+#: /widgets/widget_posts_carousel.php:7 ../widgets/widget_posts_carousel.php:13 ..
+#: /widgets/widget_posts_list.php:8 ../widgets/widget_posts_list.php:14 ..
+#: /widgets/widget_sequence_slider.php:8 ../widgets/widget_sequence_slider.php:14 
+#: ../widgets/widget_services.php:33 ../widgets/widget_services.php:39 ..
+#: /widgets/widget_services_intro.php:33 ../widgets/widget_services_intro.php:39 .
+#: ./widgets/widget_services_tabs.php:33 ../widgets/widget_services_tabs.php:39 ..
+#: /widgets/widget_skill.php:33 ../widgets/widget_skill.php:39 ..
+#: /widgets/widget_staffs.php:33 ../widgets/widget_staffs.php:39 ..
+#: /widgets/widget_testimonials.php:33 ../widgets/widget_testimonials.php:39
+msgid "-- None --"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:10
+msgid "Contact form widget."
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:12
+msgid "[NICTITATE] - Contact Form"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:65
+msgid "Name"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:65 ../widgets/widget_contact_form.php:69 ..
+#: /widgets/widget_contact_form.php:77
+msgid "(required)"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:69
+msgid "Email"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:73
+msgid "Subject:"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:77
+msgid "Message"
+msgstr ""
+
+#: ../widgets/widget_contact_form.php:81
+msgid "Submit"
+msgstr ""
+
+#: ../widgets/widget_flickr.php:10
+msgid "Flickr widget."
+msgstr ""
+
+#: ../widgets/widget_flickr.php:12
+msgid "[NICTITATE] - Flickr"
+msgstr ""
+
+#: ../widgets/widget_flickr.php:22
+msgid "Flickr ID"
+msgstr ""
+
+#: ../widgets/widget_flickr.php:27
+msgid "Limit the number of items"
+msgstr ""
+
+#: ../widgets/widget_portfolios.php:8
+msgid "Display a portfolios widget."
+msgstr ""
+
+#: ../widgets/widget_portfolios.php:10
+msgid "[NICTITATE] - Portfolios"
+msgstr ""
+
+#: ../widgets/widget_portfolios.php:90
+msgid "Title position:"
+msgstr ""
+
+#: ../widgets/widget_portfolios.php:92
+msgid ""
+"Ex: Enter 5 if you want title will be displayed as the 5th item in the "
+"portfolio list items."
+msgstr ""
+
+#: ../widgets/widget_posts_carousel.php:19
+msgid "Display a posts carousel widget"
+msgstr ""
+
+#: ../widgets/widget_posts_carousel.php:21
+msgid "[NICTITATE] - Posts Carousel"
+msgstr ""
+
+#: ../widgets/widget_posts_carousel.php:71
+msgid "Max items carousel range:"
+msgstr ""
+
+#: ../widgets/widget_posts_carousel.php:80
+msgid "Scroll Items:"
+msgstr ""
+
+#: ../widgets/widget_posts_list.php:20
+msgid "Display a posts list widget."
+msgstr ""
+
+#: ../widgets/widget_posts_list.php:22
+msgid "[NICTITATE] - Posts List"
+msgstr ""
+
+#: ../widgets/widget_posts_list.php:204
+msgid "View All"
+msgstr ""
+
+#: ../widgets/widget_sequence_slider.php:20
+msgid "Display a posts slider."
+msgstr ""
+
+#: ../widgets/widget_sequence_slider.php:22
+msgid "[NICTITATE] - Sequence Slider"
+msgstr ""
+
+#: ../widgets/widget_services.php:8
+msgid "Display a services widget."
+msgstr ""
+
+#: ../widgets/widget_services.php:10
+msgid "[NICTITATE] - Services"
+msgstr ""
+
+#: ../widgets/widget_services_intro.php:8
+msgid "Display a services intro widget."
+msgstr ""
+
+#: ../widgets/widget_services_intro.php:10
+msgid "[NICTITATE] - Services Intro"
+msgstr ""
+
+#: ../widgets/widget_services_intro.php:141
+msgid "Read more"
+msgstr ""
+
+#: ../widgets/widget_services_tabs.php:8
+msgid "Display a services tabs widget."
+msgstr ""
+
+#: ../widgets/widget_services_tabs.php:10
+msgid "[NICTITATE] - Services Tabs"
+msgstr ""
+
+#: ../widgets/widget_skill.php:8
+msgid "Display a services expertise widget."
+msgstr ""
+
+#: ../widgets/widget_skill.php:10
+msgid "[NICTITATE] - Services Expertise"
+msgstr ""
+
+#: ../widgets/widget_socials.php:10
+msgid "Socials Widget"
+msgstr ""
+
+#: ../widgets/widget_socials.php:12
+msgid "[NICTITATE] - Socials"
+msgstr ""
+
+#: ../widgets/widget_staffs.php:8
+msgid "Display a staffs widget."
+msgstr ""
+
+#: ../widgets/widget_staffs.php:10
+msgid "[NICTITATE] - Staffs"
+msgstr ""
+
+#: ../widgets/widget_staffs.php:90 ../widgets/widget_testimonials.php:90
+msgid "Style:"
+msgstr ""
+
+#: ../widgets/widget_staffs.php:92 ../widgets/widget_testimonials.php:92
+msgid "Slider"
+msgstr ""
+
+#: ../widgets/widget_staffs.php:93 ../widgets/widget_testimonials.php:93
+msgid "Carousel"
+msgstr ""
+
+#: ../widgets/widget_subscribe.php:10
+msgid "Feedburner Email Subscriptions Widget"
+msgstr ""
+
+#: ../widgets/widget_subscribe.php:12
+msgid "[NICTITATE] - Subsribe"
+msgstr ""
+
+#: ../widgets/widget_subscribe.php:16
+msgid "Newsletter"
+msgstr ""
+
+#: ../widgets/widget_subscribe.php:22
+msgid "Feedburner id:"
+msgstr ""
+
+#: ../widgets/widget_subscribe.php:60
+msgid "Subscribe to newsletter"
+msgstr ""
+
+#: ../widgets/widget_tagline.php:10
+msgid "Display a tagline widget"
+msgstr ""
+
+#: ../widgets/widget_tagline.php:12
+msgid "[NICTITATE] - Tagline"
+msgstr ""
+
+#: ../widgets/widget_tagline.php:22
+msgid "Description:"
+msgstr ""
+
+#: ../widgets/widget_tagline.php:28
+msgid "Button Text:"
+msgstr ""
+
+#: ../widgets/widget_tagline.php:33
+msgid "Button Link:"
+msgstr ""
+
+#: ../widgets/widget_testimonials.php:8
+msgid "Display a testimonials widget."
+msgstr ""
+
+#: ../widgets/widget_testimonials.php:10
+msgid "[NICTITATE] - Testimonials"
+msgstr ""
+
+#: ../widgets/widget_testimonials.php:132
+msgid "avatar"
+msgstr ""
+
+#: ../widgets/widget_text.php:10
+msgid "Arbitrary text, HTML or shortcodes"
+msgstr ""
+
+#: ../widgets/widget_text.php:12
+msgid "[NICTITATE] - Text"
+msgstr ""
+
+#: ../widgets/widget_text.php:77
+msgid "Automatically add paragraphs"
+msgstr ""
